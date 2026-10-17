@@ -1,12 +1,2 @@
-
-[project]
-name = "shopify-api"
-version = "1.0.0"
-requires-python = ">=3.12"
-dependencies = [
-    "fastapi",
-    "uvicorn",
-]
-
 [tool.vercel]
 entrypoint = "api_server:app"
